@@ -1,0 +1,83 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.2.1">
+  <diagram name="Page-1" id="heHS9PWCG2b2FoYrW2H_">
+    <mxGraphModel dx="1509" dy="448" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cyIjTK3tsfeEc9ss5CgH-3" edge="1" parent="1" source="cyIjTK3tsfeEc9ss5CgH-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=17;fontStyle=1" target="cyIjTK3tsfeEc9ss5CgH-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cyIjTK3tsfeEc9ss5CgH-4" connectable="0" parent="cyIjTK3tsfeEc9ss5CgH-3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=17;fontStyle=1" value="Filter,&amp;nbsp;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Resample&lt;/span&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.3582" y="-2" as="geometry">
+            <mxPoint x="35" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cyIjTK3tsfeEc9ss5CgH-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="ECG" vertex="1">
+          <mxGeometry height="50" width="120" x="-20" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="cyIjTK3tsfeEc9ss5CgH-7" edge="1" parent="1" source="cyIjTK3tsfeEc9ss5CgH-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=17;fontStyle=1" target="cyIjTK3tsfeEc9ss5CgH-8" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="350" y="250" />
+            </Array>
+            <mxPoint x="354" y="225" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cyIjTK3tsfeEc9ss5CgH-12" connectable="0" parent="cyIjTK3tsfeEc9ss5CgH-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=17;fontStyle=1" value="Match by heartrate" vertex="1">
+          <mxGeometry relative="1" x="0.2116" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cyIjTK3tsfeEc9ss5CgH-19" edge="1" parent="1" source="cyIjTK3tsfeEc9ss5CgH-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=17;fontStyle=1" target="cyIjTK3tsfeEc9ss5CgH-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cyIjTK3tsfeEc9ss5CgH-20" connectable="0" parent="cyIjTK3tsfeEc9ss5CgH-19" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=17;fontStyle=1" value="Add +" vertex="1">
+          <mxGeometry relative="1" x="-0.0017" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cyIjTK3tsfeEc9ss5CgH-2" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fontSize=17;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Preprocessed&amp;nbsp;&lt;div&gt;ECG&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="294" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="cyIjTK3tsfeEc9ss5CgH-10" edge="1" parent="1" source="cyIjTK3tsfeEc9ss5CgH-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=17;fontStyle=1" target="cyIjTK3tsfeEc9ss5CgH-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cyIjTK3tsfeEc9ss5CgH-11" connectable="0" parent="cyIjTK3tsfeEc9ss5CgH-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=17;fontStyle=1" value="Best matching&lt;div&gt;SAFER ECG&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0444" y="4" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cyIjTK3tsfeEc9ss5CgH-8" parent="1" style="sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.cisco.misc.set_top_box;fontSize=17;fontStyle=1" value="SAFER ECG Signals" vertex="1">
+          <mxGeometry height="85" width="140" x="-40" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="cyIjTK3tsfeEc9ss5CgH-15" edge="1" parent="1" source="cyIjTK3tsfeEc9ss5CgH-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=17;fontStyle=1" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="332.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cyIjTK3tsfeEc9ss5CgH-16" connectable="0" parent="cyIjTK3tsfeEc9ss5CgH-15" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=17;fontStyle=1" value="Extract&amp;nbsp;&lt;div&gt;Noise&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.135" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cyIjTK3tsfeEc9ss5CgH-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;fontStyle=1;fillColor=#f8cecc;strokeColor=#b85450;" value="SAFER ECG" vertex="1">
+          <mxGeometry height="60" width="120" x="280" y="302.5" as="geometry" />
+        </mxCell>
+        <mxCell id="cyIjTK3tsfeEc9ss5CgH-18" edge="1" parent="1" source="cyIjTK3tsfeEc9ss5CgH-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=17;fontStyle=1" target="cyIjTK3tsfeEc9ss5CgH-17" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cyIjTK3tsfeEc9ss5CgH-21" connectable="0" parent="cyIjTK3tsfeEc9ss5CgH-18" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=17;fontStyle=1" value="Add +&amp;nbsp;" vertex="1">
+          <mxGeometry relative="1" x="0.203" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cyIjTK3tsfeEc9ss5CgH-14" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fontSize=17;fontStyle=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Noise Part&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="510" y="302.5" as="geometry" />
+        </mxCell>
+        <mxCell id="cyIjTK3tsfeEc9ss5CgH-17" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fontSize=17;fontStyle=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Augmented&amp;nbsp;&lt;div&gt;ECG&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="650" y="85" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
