@@ -160,7 +160,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Drqoki6ghjmtoilVcXDl-52" parent="1" style="whiteSpace=wrap;html=1;fontSize=18;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=1;fontStyle=1;" value="Statistical and Threshold-based features&amp;nbsp;" vertex="1">
-          <mxGeometry height="150" width="150" x="900" y="155" as="geometry" />
+          <mxGeometry height="150" width="150" x="890" y="155" as="geometry" />
         </mxCell>
         <mxCell id="Drqoki6ghjmtoilVcXDl-54" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;strokeWidth=3;" target="Drqoki6ghjmtoilVcXDl-52" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
@@ -193,7 +193,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Drqoki6ghjmtoilVcXDl-60" parent="1" style="whiteSpace=wrap;html=1;fontSize=18;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;fontStyle=1;" value="AF / non-AF" vertex="1">
-          <mxGeometry height="60" width="120" x="1120.5" y="200" as="geometry" />
+          <mxGeometry height="60" width="120" x="1080" y="200" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
