@@ -1,9 +1,88 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.6.1">
   <diagram name="Page-1" id="dYi5rwAFFmbThWoFd_6j">
-    <mxGraphModel dx="1110" dy="653" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1195" dy="703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="GBPTBF4lnCGB4xhuY6ir-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;" value="" vertex="1">
+          <mxGeometry height="150" width="380" x="620" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="GBPTBF4lnCGB4xhuY6ir-3" edge="1" parent="1" source="GBPTBF4lnCGB4xhuY6ir-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" target="GBPTBF4lnCGB4xhuY6ir-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GBPTBF4lnCGB4xhuY6ir-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" value="ECGs" vertex="1">
+          <mxGeometry height="60" width="120" x="120" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="GBPTBF4lnCGB4xhuY6ir-5" edge="1" parent="1" source="GBPTBF4lnCGB4xhuY6ir-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" target="GBPTBF4lnCGB4xhuY6ir-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GBPTBF4lnCGB4xhuY6ir-2" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=14;" value="P-Wave-Based&lt;div&gt;Model&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="270" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="GBPTBF4lnCGB4xhuY6ir-15" edge="1" parent="1" source="GBPTBF4lnCGB4xhuY6ir-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;" target="GBPTBF4lnCGB4xhuY6ir-14" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580" y="210" />
+              <mxPoint x="580" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GBPTBF4lnCGB4xhuY6ir-26" connectable="0" parent="GBPTBF4lnCGB4xhuY6ir-15" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=1;fontSize=13;" value="Via&lt;div&gt;Aggregated&amp;nbsp;&lt;/div&gt;&lt;div&gt;Features&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.0561" y="1" as="geometry">
+            <mxPoint x="2" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GBPTBF4lnCGB4xhuY6ir-21" edge="1" parent="1" source="GBPTBF4lnCGB4xhuY6ir-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" target="GBPTBF4lnCGB4xhuY6ir-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580" y="210" />
+              <mxPoint x="580" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GBPTBF4lnCGB4xhuY6ir-25" connectable="0" parent="GBPTBF4lnCGB4xhuY6ir-21" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=1;fontSize=13;" value="Via&amp;nbsp;&lt;div&gt;ECG-Level&amp;nbsp;&lt;div&gt;Scores&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0178" y="1" as="geometry">
+            <mxPoint x="1" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GBPTBF4lnCGB4xhuY6ir-4" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;" value="P-Wave-Based&lt;div&gt;Features&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="430" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="GBPTBF4lnCGB4xhuY6ir-13" edge="1" parent="1" source="GBPTBF4lnCGB4xhuY6ir-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" target="GBPTBF4lnCGB4xhuY6ir-12" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GBPTBF4lnCGB4xhuY6ir-9" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14;" value="Logistic Regression Model for AF" vertex="1">
+          <mxGeometry height="60" width="120" x="640" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GBPTBF4lnCGB4xhuY6ir-17" edge="1" parent="1" source="GBPTBF4lnCGB4xhuY6ir-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" target="GBPTBF4lnCGB4xhuY6ir-16" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GBPTBF4lnCGB4xhuY6ir-24" connectable="0" parent="GBPTBF4lnCGB4xhuY6ir-17" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;" value="Max Score" vertex="1">
+          <mxGeometry relative="1" x="0.0082" y="-3" as="geometry">
+            <mxPoint x="15" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GBPTBF4lnCGB4xhuY6ir-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;" value="ECG-Level&amp;nbsp;&lt;div&gt;AF Score&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="840" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GBPTBF4lnCGB4xhuY6ir-19" edge="1" parent="1" source="GBPTBF4lnCGB4xhuY6ir-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" target="GBPTBF4lnCGB4xhuY6ir-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GBPTBF4lnCGB4xhuY6ir-14" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;" value="Aggregated P-wave-Based Features" vertex="1">
+          <mxGeometry height="60" width="120" x="640" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="GBPTBF4lnCGB4xhuY6ir-16" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;fontStyle=1" value="Participant-Level Prediction" vertex="1">
+          <mxGeometry height="60" width="120" x="1010" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="GBPTBF4lnCGB4xhuY6ir-20" edge="1" parent="1" source="GBPTBF4lnCGB4xhuY6ir-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" target="GBPTBF4lnCGB4xhuY6ir-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GBPTBF4lnCGB4xhuY6ir-18" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14;" value="Logistic Regression Model for AF" vertex="1">
+          <mxGeometry height="60" width="120" x="840" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="GBPTBF4lnCGB4xhuY6ir-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontSize=14;" value="ECG-Level AF Prediction" vertex="1">
+          <mxGeometry height="30" width="200" x="640" y="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
