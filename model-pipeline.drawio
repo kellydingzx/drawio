@@ -33,7 +33,7 @@
         <mxCell id="Vbds6iIaIQtLzEdXs5HF-12" edge="1" parent="1" source="Vbds6iIaIQtLzEdXs5HF-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontStyle=1;fontSize=14;" target="Vbds6iIaIQtLzEdXs5HF-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Vbds6iIaIQtLzEdXs5HF-4" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontSize=14;" value="Machine Learning Model" vertex="1">
+        <mxCell id="Vbds6iIaIQtLzEdXs5HF-4" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontSize=14;" value="Deep Learning Model" vertex="1">
           <mxGeometry height="60" width="170" x="470" y="285" as="geometry" />
         </mxCell>
         <mxCell id="Vbds6iIaIQtLzEdXs5HF-8" edge="1" parent="1" source="Vbds6iIaIQtLzEdXs5HF-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontStyle=1;fontSize=14;" target="Vbds6iIaIQtLzEdXs5HF-7">
@@ -58,7 +58,7 @@
         <mxCell id="Vbds6iIaIQtLzEdXs5HF-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;fontStyle=1" value="Feature-Based Approach" vertex="1">
           <mxGeometry height="30" width="200" x="230" y="60" as="geometry" />
         </mxCell>
-        <mxCell id="Vbds6iIaIQtLzEdXs5HF-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;fontStyle=1" value="Machine Learning&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Based Approach&lt;/span&gt;" vertex="1">
+        <mxCell id="Vbds6iIaIQtLzEdXs5HF-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;fontStyle=1" value="Deep Learning&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Based Approach&lt;/span&gt;" vertex="1">
           <mxGeometry height="30" width="245" x="245" y="255" as="geometry" />
         </mxCell>
         <mxCell id="Vbds6iIaIQtLzEdXs5HF-22" edge="1" parent="1" source="Vbds6iIaIQtLzEdXs5HF-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Vbds6iIaIQtLzEdXs5HF-4">
