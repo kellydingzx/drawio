@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.3.0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36">
   <diagram name="Page-1" id="FepHIL-IzHSpm_IyEwoQ">
-    <mxGraphModel dx="1949" dy="1429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1713" dy="1016" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -173,7 +173,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4eYfPZYgED6HGJoj2oo5-41" parent="1" style="whiteSpace=wrap;html=1;fontSize=18;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=1;fontStyle=1;strokeWidth=1;" value="Statistical and Threshold-based features&amp;nbsp;" vertex="1">
+        <mxCell id="4eYfPZYgED6HGJoj2oo5-41" parent="1" style="whiteSpace=wrap;html=1;fontSize=18;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=1;fontStyle=1;strokeWidth=1;" value="Statistical and Threshold-based&lt;div&gt;&lt;u&gt;&lt;i&gt;ECG-Level&lt;/i&gt;&lt;/u&gt; features&amp;nbsp;&lt;/div&gt;" vertex="1">
           <mxGeometry height="150" width="150" x="1350" y="445" as="geometry" />
         </mxCell>
         <mxCell id="4eYfPZYgED6HGJoj2oo5-42" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;strokeWidth=3;fontSize=18;" value="">
