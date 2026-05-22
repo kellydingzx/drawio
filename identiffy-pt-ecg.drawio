@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="FEcqSw_z7wDew0oIdf58">
-    <mxGraphModel dx="737" dy="1653" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="911" dy="1767" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -164,14 +164,14 @@
         <mxCell id="eV713s_q5yFgU6vaAypF-5" edge="1" parent="1" source="8y3DYVrcew5R2zxUkgmR-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="8y3DYVrcew5R2zxUkgmR-58">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="770" y="180" />
-              <mxPoint x="770" y="-72" />
+              <mxPoint x="750" y="180" />
+              <mxPoint x="750" y="-72" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="eV713s_q5yFgU6vaAypF-15" connectable="0" parent="eV713s_q5yFgU6vaAypF-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;span style=&quot;font-size: 12px; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;If&amp;nbsp;&lt;b&gt;&lt;i&gt;&lt;u&gt;participant-level result&lt;/u&gt;&lt;/i&gt; &lt;/b&gt;exceed &lt;b&gt;threshold&lt;/b&gt;&lt;/span&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.1013" y="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint y="40" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="eV713s_q5yFgU6vaAypF-7" edge="1" parent="1" source="8y3DYVrcew5R2zxUkgmR-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;dashed=1;" target="8y3DYVrcew5R2zxUkgmR-58">
@@ -189,7 +189,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eV713s_q5yFgU6vaAypF-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&lt;u&gt;&lt;i&gt;First Filter Review&lt;/i&gt;&lt;/u&gt;&lt;/b&gt;" vertex="1">
-          <mxGeometry height="30" width="120" x="425" y="-150" as="geometry" />
+          <mxGeometry height="30" width="120" x="433.75" y="-150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
