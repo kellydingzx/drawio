@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="FEcqSw_z7wDew0oIdf58">
-    <mxGraphModel dx="1007" dy="637" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1032" dy="677" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -39,11 +39,14 @@
         <mxCell id="8y3DYVrcew5R2zxUkgmR-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="ECG" vertex="1">
           <mxGeometry height="40" width="70" x="222" y="250" as="geometry" />
         </mxCell>
+        <mxCell id="-KzjsDkhJRuzkom0_VMs-7" edge="1" parent="1" source="8y3DYVrcew5R2zxUkgmR-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;" target="9NUYYTbPsnC9lVu9i_iv-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="8y3DYVrcew5R2zxUkgmR-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="ECG" vertex="1">
           <mxGeometry height="40" width="70" x="222" y="310" as="geometry" />
         </mxCell>
         <mxCell id="8y3DYVrcew5R2zxUkgmR-76" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value=".&lt;div&gt;.&lt;/div&gt;&lt;div&gt;.&lt;/div&gt;" vertex="1">
-          <mxGeometry height="30" width="60" x="227" y="210" as="geometry" />
+          <mxGeometry height="30" width="60" x="310" y="200" as="geometry" />
         </mxCell>
         <mxCell id="9NUYYTbPsnC9lVu9i_iv-2" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#f8cecc;strokeColor=#b85450;" value="&lt;b&gt;Feature Extractor&lt;/b&gt; for &lt;i&gt;P-wave-based&lt;/i&gt; and/or&amp;nbsp;&lt;div&gt;&lt;i&gt;RR-interval-based&lt;/i&gt; features&lt;/div&gt;" vertex="1">
           <mxGeometry height="300" width="130" x="320" y="50" as="geometry" />
@@ -117,11 +120,17 @@
             <mxPoint x="481" y="80" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9NUYYTbPsnC9lVu9i_iv-45" edge="1" parent="1" source="9NUYYTbPsnC9lVu9i_iv-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="9NUYYTbPsnC9lVu9i_iv-44" value="">
+        <mxCell id="-KzjsDkhJRuzkom0_VMs-2" edge="1" parent="1" source="9NUYYTbPsnC9lVu9i_iv-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="-KzjsDkhJRuzkom0_VMs-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9NUYYTbPsnC9lVu9i_iv-34" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Logistic Regression Model for &lt;b&gt;Participant-Level AF Detection&lt;/b&gt;" vertex="1">
-          <mxGeometry height="160" width="110" x="600" y="140" as="geometry" />
+        <mxCell id="-KzjsDkhJRuzkom0_VMs-3" edge="1" parent="1" source="9NUYYTbPsnC9lVu9i_iv-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" target="-KzjsDkhJRuzkom0_VMs-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-KzjsDkhJRuzkom0_VMs-4" edge="1" parent="1" source="9NUYYTbPsnC9lVu9i_iv-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="-KzjsDkhJRuzkom0_VMs-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9NUYYTbPsnC9lVu9i_iv-34" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="&lt;b&gt;Feature Aggregation&lt;/b&gt;" vertex="1">
+          <mxGeometry height="130" width="90" x="600" y="170" as="geometry" />
         </mxCell>
         <mxCell id="9NUYYTbPsnC9lVu9i_iv-40" edge="1" parent="1" source="9NUYYTbPsnC9lVu9i_iv-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.375;entryDx=0;entryDy=0;entryPerimeter=0;" target="9NUYYTbPsnC9lVu9i_iv-34">
           <mxGeometry relative="1" as="geometry" />
@@ -129,19 +138,28 @@
         <mxCell id="9NUYYTbPsnC9lVu9i_iv-41" edge="1" parent="1" source="9NUYYTbPsnC9lVu9i_iv-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.013;entryY=0.609;entryDx=0;entryDy=0;entryPerimeter=0;" target="9NUYYTbPsnC9lVu9i_iv-34">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9NUYYTbPsnC9lVu9i_iv-46" edge="1" parent="1" source="9NUYYTbPsnC9lVu9i_iv-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=3;strokeColor=light-dark(#7015e0, #ededed);" target="8y3DYVrcew5R2zxUkgmR-11">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="810" y="430" />
-              <mxPoint x="257" y="430" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="-KzjsDkhJRuzkom0_VMs-12" edge="1" parent="1" source="9NUYYTbPsnC9lVu9i_iv-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="-KzjsDkhJRuzkom0_VMs-11" value="">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9NUYYTbPsnC9lVu9i_iv-44" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;b&gt;Send for Review&lt;/b&gt; if &lt;i&gt;&lt;u&gt;classified as AF&lt;/u&gt;&lt;/i&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="750" y="190" as="geometry" />
+        <mxCell id="9NUYYTbPsnC9lVu9i_iv-44" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;b&gt;&lt;u&gt;&lt;i&gt;Participant-Level&amp;nbsp;&lt;/i&gt;&lt;/u&gt;&lt;/b&gt;&lt;div&gt;AF Detection Result&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="900" y="205" as="geometry" />
         </mxCell>
         <mxCell id="9NUYYTbPsnC9lVu9i_iv-48" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#d0cee2;strokeColor=#56517e;" value="ECGs Sent for &lt;i&gt;&lt;u&gt;Cardiologist Review&amp;nbsp;&lt;/u&gt;&lt;/i&gt;&lt;div&gt;if i&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;dentified by &lt;/span&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Cardiolund Algorithm&lt;/b&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt; in the SAFER Trial&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="100" width="160" x="460" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="-KzjsDkhJRuzkom0_VMs-9" edge="1" parent="1" source="-KzjsDkhJRuzkom0_VMs-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="9NUYYTbPsnC9lVu9i_iv-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-KzjsDkhJRuzkom0_VMs-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" value="Logistic Regression Model for &lt;b&gt;Participant-Level AF Detection&lt;/b&gt;" vertex="1">
+          <mxGeometry height="130" width="120" x="720" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="-KzjsDkhJRuzkom0_VMs-11" parent="1" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=1;" value="Send &lt;u&gt;&lt;i&gt;&lt;b&gt;the participant&lt;/b&gt;&lt;/i&gt;&lt;/u&gt;&lt;b&gt; &lt;/b&gt;for&lt;b&gt; &lt;u&gt;Review&lt;/u&gt;&amp;nbsp;&lt;/b&gt;&lt;div&gt;if classified as AF&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="900" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="-KzjsDkhJRuzkom0_VMs-13" edge="1" parent="1" source="-KzjsDkhJRuzkom0_VMs-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="9NUYYTbPsnC9lVu9i_iv-48">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
