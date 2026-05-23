@@ -192,7 +192,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FtPp6lgI_ZLtpXNXuw6d-43" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&lt;u&gt;&lt;i&gt;First Filter Review&lt;/i&gt;&lt;/u&gt;&lt;/b&gt;" vertex="1">
-          <mxGeometry height="30" width="120" x="473.75" y="-110" as="geometry" />
+          <mxGeometry height="30" width="120" x="473.75" y="-100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
